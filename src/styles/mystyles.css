@@ -3,3 +3,28 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Crete Round Italic';
+  src: local('Crete Round'), url(../fonts/CreteRound-Italic.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: local('Lato Bold'), url(../fonts/Lato-Bold.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato Bold Italic';
+  src: local('Lato Bold'), url(../fonts/Lato-BoldItalic.ttf) format('woff');
+}
+
+@font-face {
+  font-family: Lato Light;
+  src: Local('Lato Light'), url(../fonts/Lato-Light.ttf) format('woff');
+}
