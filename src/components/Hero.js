@@ -28,15 +28,15 @@ const Hero = () => {
           <div className="flex lg:w-hero h-20rem"></div>
           <div className="flex flex-col justify-center lg:bg-starbucks-red lg:absolute px-3 lg:relative lg:ml-20 w-full lg:my lg:w-1/3 ">
             <div className="flex justify-center lg:justify-start text-left">
-              <p className="flex-shrink  text-4xl pb-1 px-2 max-w-sm text-gray-200 font-starbucks " style={{
+              <p className="flex-shrink text-4xl pb-1 px-2 max-w-sm text-gray-200 font-starbucks " style={{
                 textShadow: "3px 3px 15px #3F3F2C",
               }}>Merry Coffee</p>
             </div>
             <div className="flex justify-center lg:justify-start text-center lg:text-left">
-              <p className="flex-shrink pb-4 max-w-sm font-starbucksP ">This is the season for Peppermint Mocha, Caramel Brulee Latte and Taosted White Chocolate Mocha.</p>
+              <p className="flex-shrink pb-4 max-w-sm font-starbucksP">This is the season for <a className="underline font-semibold" href="/"> Peppermint Mocha,</a> <a className="underline font-semibold" href="/">Caramel Brulee Latte</a> and <a className="underline font-semibold" href="/">Taosted White Chocolate Mocha.</a></p>
             </div>
             <div className="flex justify-center lg:justify-start pb-4">
-              <button className="uppercase border border-gray-100 w-auto py-1 px-5 rounded">Find a store</button>
+              <button className="uppercase border border-gray-100 w-auto py-1 px-5 rounded font-semibold text-lg hover:bg-red-600">Find a store</button>
             </div>
           </div>
         </div>

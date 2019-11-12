@@ -1,12 +1,20 @@
 @tailwind base;
 
+a:hover {
+  color: pink;
+}
+
+li {
+  margin: .7rem 0 .7rem 0;
+}   
+
 @tailwind components;
 
 @tailwind utilities;
 
 @font-face {
   font-family: 'Crete Round Italic';
-  src: local('Crete Round'), url(../fonts/CreteRound-Italic.ttf) format('woff');
+  src: local('Crete Round Italic'), url(../fonts/CreteRound-Italic.ttf) format('woff');
 }
 
 @font-face {
@@ -21,7 +29,7 @@
 
 @font-face {
   font-family: 'Lato Bold Italic';
-  src: local('Lato Bold'), url(../fonts/Lato-BoldItalic.ttf) format('woff');
+  src: local('Lato Bold Italic'), url(../fonts/Lato-BoldItalic.ttf) format('woff');
 }
 
 @font-face {

@@ -38,7 +38,11 @@ const Navbar = () => {
               }}
             />
           </div>
-          <div className="flex p-2 items-center text-gray-700 font-starbucksLato">
+          <div className="flex p-2 text-gray-700 font-starbucksLato">
+          <FontAwesomeIcon icon={faMapMarkerAlt} size="lg"
+          className="hidden md:inline-block w-7 mx-2" />
+            <span className="mr-4  hidden md:block">Find a Store</span>
+            <span className="mr-4 hidden md:block border-r border-gray-800 h-4 inline-block"></span>
             <span className="mr-4 ">Sign In</span>
             <span className="mr-4 border-r border-gray-800 h-4 inline-block"></span>
             <span className="mr-8">Join Now</span>

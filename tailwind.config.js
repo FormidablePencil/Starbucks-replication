@@ -16,10 +16,13 @@ module.exports = {
         starbucks: {
           red: "rgb(214, 21, 42)",
           redTp: "rgb(244, 139, 151, 0.7)",
+          'gray': "#f0f0f0",
+          'grayLight':"#f7f7f7",
           "gray2": '#F0EFED',
           "green": '#006341',
           "greenDark": '#004F34',
           "greenDarker": '#003b27',
+          
         },
       },
       backgroundPosition: {
@@ -31,7 +34,8 @@ module.exports = {
         '20rem': '20rem',
       },
       fontSize: {
-        'tiny' : '20px',
+        'tiny' : '.4rem',
+        'tiny2' : '.6rem',
       },
       fontFamily: {
         starbucks: ['Crete Round Italic', 'Georgia', 'Times New Roman', 'serif'],
@@ -40,6 +44,9 @@ module.exports = {
         starbucksLatoLight: ['Lato Light'],
         // starbucksCreteRoundItalic: ['Crete Round Italic'];
       },
+      margin: {
+        'pointFive' : "0.14rem",
+      }
     },
   },
 

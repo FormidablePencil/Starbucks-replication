@@ -8,6 +8,8 @@ import {graphql} from "gatsby"
 import '../fonts/CreteRound-italic.ttf'
 import '../fonts/Lato-Bold.ttf'
 import '../fonts/Lato-Regular.ttf'
+import Footer from '../components/Footer';
+import FormEmail from '../components/FormEmail';
 
 const index = ({data}) => {
   return (
@@ -36,6 +38,8 @@ const index = ({data}) => {
           placeIntoClassName={"text-xs italic font-normal pb-5 md:w-20rem"}
         action={"Order "}
         />
+      <FormEmail />
+      <Footer />
     </div>
   );
 };

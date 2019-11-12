@@ -1,5 +1,7 @@
 import React from 'react';
 import Img from "gatsby-image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 const ItemsTemplate = ({image, title, description, action, bgColor, details, placeIntoClassName}) => {
   return (
@@ -13,9 +15,10 @@ const ItemsTemplate = ({image, title, description, action, bgColor, details, pla
           <div className="md:ml-10 lg:ml-20 mt-5">
             <div className="text-center md:text-left text-gray-900 font-semibold">
               <div className="uppercase text-2xl pb-5 font-starbucksLatoBold">{title}</div>
-              <div className=" text-md pb-5 md:w-20rem font-starbucks font-thin">{description}</div>
+              <div className=" text-md pb-5 md:w-20rem font-starbucks font-thin tracking-wide">{description}</div>
               <div className={placeIntoClassName} style={{fontSize: ".5rem" }}>{details}</div>
-              <div className='mb-2'>{action} >></div>
+              <div className='mb-2'>{action} <FontAwesomeIcon icon={faArrowRight} />
+              </div>
             </div>
           </div>
         </div>      
