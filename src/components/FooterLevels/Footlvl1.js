@@ -8,7 +8,7 @@ const Footer = () => {
         <Col 
         head="about us"
         one="our company"
-        two="investor relations"
+        two="Dennis is the best"
         three="starbucks stories"
         four="press center"
         five=""
