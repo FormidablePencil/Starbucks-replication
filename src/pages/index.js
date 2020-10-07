@@ -11,7 +11,7 @@ import '../fonts/Lato-Regular.ttf'
 import Footer from '../components/Footer';
 import FormEmail from '../components/FormEmail';
 
-const index = ({data}) => {
+const Index = ({data}) => {
   return (
     <div className="bg-gray-100">
       <LimitedTimeBanner />
@@ -71,4 +71,4 @@ export const query = graphql`
 `
 
 
-export default index;
+export default Index;
