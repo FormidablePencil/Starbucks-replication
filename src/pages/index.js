@@ -5,9 +5,9 @@ import Hero from '../components/Hero';
 import LimitedTimeBanner from '../components/LimitedTimeBanner';
 import ItemsTemplate from '../components/BavbarLinks/ItemsTemplate';
 import {graphql} from "gatsby"
-import '../fonts/CreteRound-italic.ttf'
-import '../fonts/Lato-Bold.ttf'
-import '../fonts/Lato-Regular.ttf'
+// import '../fonts/CreteRound-italic.ttf'
+// import '../fonts/Lato-Bold.ttf'
+// import '../fonts/Lato-Regular.ttf'
 import Footer from '../components/Footer';
 import FormEmail from '../components/FormEmail';
 
