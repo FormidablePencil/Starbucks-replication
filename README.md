@@ -8,5 +8,5 @@ Website hosted on netlify: https://starbucksreplicawebsite.netlify.app/
 
 ### Fontend
 
-- React <img src="https://i.ibb.co/c1kpQYX/react-Logo.png" width="20" title="hover text">
-- Tailwind <img src="https://gist.githubusercontent.com/FormidablePencil/871acac64e1966254442970138679f89/raw/40a90d2003aca37897d2e024d011a448a8bed13a/tailwind.svg" width="20" title="hover text">
+- React <img src="https://i.ibb.co/nb965ST/react-Logo.png" width="20" title="hover text">
+- Tailwind <img src="https://i.ibb.co/mhCwGWx/tailwind.png" width="20" title="hover text">
