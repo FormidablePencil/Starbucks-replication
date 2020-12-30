@@ -6,7 +6,7 @@ Website hosted on <img src="https://i.ibb.co/HVRK4Lk/netlify.png" width="20" tit
 
 ## Technologies utilized
 
-### Fontend
+### Client
 
 - React <img src="https://i.ibb.co/nb965ST/react-Logo.png" width="20" title="hover text">
 - Tailwind <img src="https://i.ibb.co/mhCwGWx/tailwind.png" width="20" title="hover text">
